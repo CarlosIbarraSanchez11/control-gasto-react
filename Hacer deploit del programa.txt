@@ -1,0 +1,11 @@
+Deploit proyectos de react
+primero si trabajas con Tailwind, revisar en tailwind.config.js 
+purge:["./index.html", "./src/**/*.{jsx}"] -> esta asi
+Cambiarlos: 
+purge:["index.html", "./src/**/*.jsx"]
+
+Despues de haber hecho todos los cambios. Ir a package.json
+y ejecutamos la terminal el:
+npm run build
+
+Se crea una carpeta dist, eso subirla al netlify

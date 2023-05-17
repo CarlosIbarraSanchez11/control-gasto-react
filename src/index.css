@@ -347,8 +347,10 @@ main {
     right: 3rem;
     top: 3rem;
     width: 3rem;
-    height: 3rem;
+    height: 3rem; 
 }
+
+
 .modal .cerrar-modal img {
     width: 100%;
 }

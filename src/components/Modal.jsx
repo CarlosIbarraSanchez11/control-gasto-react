@@ -27,6 +27,7 @@ const Modal = ({setModal,
         setFecha(gastoEditar.fecha);
     }
   },[]);
+  
   const ocultarModal = ()=>{
     // setModal(false)
     setAnimarModal(false)
