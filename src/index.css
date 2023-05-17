@@ -354,7 +354,7 @@ main {
 }
 
 .modal .formulario {
-    max-width: 80rem;
+    max-width: 80%;
     width: 40rem;
     transition-property: all;
     transition-duration: 300ms;
